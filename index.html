@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnPath - Find Your Roadmap</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">📚 LearnPath</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#search">Roadmaps</a></li>
+        <li><a href="#courses">Popular Courses</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="hero-text">
+        <h1>Master Any Skill with a Clear Roadmap</h1>
+        <p>Step-by-step learning guides & top resources curated just for you</p>
+        <a href="#search" class="btn">Get Started</a>
+      </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section" id="search">
+      <div class="search-box">
+        <h2>Find Your Roadmap 🚀</h2>
+        <input
+          type="text"
+          id="courseInput"
+          placeholder="Enter course name (e.g. Python, Web Development)"
+        />
+        <button id="searchBtn">Search</button>
+      </div>
+      <div id="output"></div>
+    </section>
+
+    <!-- Popular Courses Section -->
+    <section id="courses" class="popular-courses">
+      <h2>Popular Roadmaps</h2>
+      <div class="course-grid">
+        <div class="course-card">
+          <h3>Python</h3>
+          <p>Beginner to advanced guide for mastering Python programming.</p>
+        </div>
+        <div class="course-card">
+          <h3>Web Development</h3>
+          <p>Complete frontend & backend roadmap for building web apps.</p>
+        </div>
+        <div class="course-card">
+          <h3>Data Structures</h3>
+          <p>Learn algorithms & problem-solving techniques step by step.</p>
+        </div>
+        <div class="course-card">
+          <h3>Machine Learning</h3>
+          <p>Structured plan to enter the AI & data science world.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h4>How do I use LearnPath?</h4>
+        <p>
+          Simply type in the course name in the search bar and get a detailed
+          roadmap with resources.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h4>Are all resources free?</h4>
+        <p>
+          We provide a mix of free and paid resources so you can choose based on
+          your preference.
+        </p>
+      </div>
+      <div class="faq-item">
+        <h4>Can I suggest a course?</h4>
+        <p>
+          Yes! Use our contact form to suggest new courses and we’ll add them.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Made with ❤️ by Raunak | &copy; 2025 LearnPath</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

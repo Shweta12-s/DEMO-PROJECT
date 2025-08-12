@@ -1,0 +1,114 @@
+{
+  "python": {
+    "roadmap": [
+      "Learn Python basics (syntax, variables, data types)",
+      "Control structures (if-else, loops)",
+      "Functions and modules",
+      "Object-Oriented Programming",
+      "File handling & exceptions",
+      "Libraries (NumPy, Pandas)",
+      "Projects & real-world applications"
+    ],
+    "resources": [
+      { "title": "Python Docs", "link": "https://docs.python.org/3/" },
+      {
+        "title": "W3Schools Python",
+        "link": "https://www.w3schools.com/python/"
+      },
+      {
+        "title": "FreeCodeCamp Python Video",
+        "link": "https://youtu.be/rfscVS0vtbw"
+      }
+    ]
+  },
+  "web development": {
+    "roadmap": [
+      "HTML basics",
+      "CSS styling",
+      "JavaScript basics",
+      "Responsive design",
+      "Frontend frameworks (React, Angular)",
+      "Backend basics (Node.js, Express)",
+      "Database (MongoDB/MySQL)",
+      "Deployment & hosting"
+    ],
+    "resources": [
+      {
+        "title": "MDN HTML",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      { "title": "CSS Tricks", "link": "https://css-tricks.com/" },
+      { "title": "JavaScript Info", "link": "https://javascript.info/" }
+    ]
+  },
+  "react": {
+    "roadmap": [
+      "JavaScript ES6+ refresh",
+      "Create React App / Vite setup",
+      "JSX syntax & rendering",
+      "Components & Props",
+      "State & Lifecycle",
+      "Event handling",
+      "React Router for navigation",
+      "Hooks (useState, useEffect, custom hooks)",
+      "Context API & state management",
+      "API integration & Axios",
+      "Deployment with Vercel/Netlify"
+    ],
+    "resources": [
+      { "title": "React Official Docs", "link": "https://react.dev/" },
+      { "title": "FreeCodeCamp React", "link": "https://youtu.be/bMknfKXIFA8" },
+      {
+        "title": "React Router Docs",
+        "link": "https://reactrouter.com/en/main"
+      }
+    ]
+  },
+  "data science": {
+    "roadmap": [
+      "Python programming basics",
+      "Data analysis with Pandas & NumPy",
+      "Data visualization (Matplotlib, Seaborn)",
+      "Statistics & probability basics",
+      "Data cleaning & preprocessing",
+      "Exploratory Data Analysis (EDA)",
+      "Intro to Machine Learning (Scikit-learn)",
+      "Projects with real datasets"
+    ],
+    "resources": [
+      {
+        "title": "Kaggle Learn Data Science",
+        "link": "https://www.kaggle.com/learn"
+      },
+      {
+        "title": "FreeCodeCamp Data Science",
+        "link": "https://youtu.be/r-uOLxNrNk8"
+      },
+      {
+        "title": "Towards Data Science",
+        "link": "https://towardsdatascience.com/"
+      }
+    ]
+  },
+  "data structures": {
+    "roadmap": [
+      "Introduction to algorithms",
+      "Arrays & Strings",
+      "Linked Lists",
+      "Stacks & Queues",
+      "Trees & Graphs",
+      "Hashing & Hashmaps",
+      "Searching & Sorting algorithms",
+      "Complexity analysis (Big O notation)",
+      "Practice on competitive coding platforms"
+    ],
+    "resources": [
+      {
+        "title": "GeeksforGeeks DSA",
+        "link": "https://www.geeksforgeeks.org/data-structures/"
+      },
+      { "title": "LeetCode", "link": "https://leetcode.com/" },
+      { "title": "FreeCodeCamp DSA", "link": "https://youtu.be/8hly31xKli0" }
+    ]
+  }
+}
